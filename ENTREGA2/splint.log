@@ -1,0 +1,23 @@
+menus.c:6:6: Function exported but not used outside menus: main_menu_print
+  A declaration is exported, but not used outside this module. Declaration can
+  use static qualifier. (Use -exportlocal to inhibit warning)
+   menus.c:13:1: Definition of main_menu_print
+menus.c:15:6: Function exported but not used outside menus: products_menu_print
+   menus.c:21:1: Definition of products_menu_print
+menus.c:23:6: Function exported but not used outside menus: orders_menu_print
+   menus.c:30:1: Definition of orders_menu_print
+menus.c:32:6: Function exported but not used outside menus:
+                 customers_menu_print
+   menus.c:39:1: Definition of customers_menu_print
+menus.c:41:5: Function exported but not used outside menus: get_input
+   menus.c:66:1: Definition of get_input
+menus.c:68:6: Function exported but not used outside menus:
+                 navigate_products_menu
+   menus.c:86:1: Definition of navigate_products_menu
+menus.c:88:6: Function exported but not used outside menus:
+                 navigate_orders_menu
+   menus.c:110:1: Definition of navigate_orders_menu
+menus.c:112:6: Function exported but not used outside menus:
+                  navigate_customers_menu
+   menus.c:134:1: Definition of navigate_customers_menu
+

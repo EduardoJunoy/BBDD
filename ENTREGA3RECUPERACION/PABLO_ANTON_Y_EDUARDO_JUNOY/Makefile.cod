@@ -1,0 +1,21 @@
+CC  = gcc
+CFLAGS = -g -Wall 
+OBJECTS = menu.o utils.o
+EXE = menu
+
+all: $(EXE)
+
+run: all 
+	./$(EXE)
+
+$(EXE): $(OBJECTS)
+	$(CC) -o $@ $(OBJECTS)
+
+menu.o: menu.c
+	$(CC) $(CFLAGS) -c $<
+
+utils.o: utils.c
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	rm -f *.o
